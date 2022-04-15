@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {}
+
+@media screen and (min-width: 900px) {}
+
+body {
+    background-color: rgb(38, 38, 38);
+}
+
+.two_color span {
+    color: rgb(251, 141, 117);
+    font-weight: 1500;
+    font-size: 5vw;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: flex-end;
+}
+.two_color span span {
+    font-size: 8vw;
+}
+
+div p {
+    color: rgb(125, 234, 232);
+    position: relative;
+    font-size: large;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
+    font-weight: 800;
+    font-size: 4.5vw;
+}
+
+.big {
+    color: rgb(125, 234, 232);
+    position: relative;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
+    font-weight: 800;
+    font-size: 6vw;
+}
+
+.Save {
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+
+    align-items: center;
+}
+
+.Tittle {
+    position: relative;
+    font-size: large;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
+}
