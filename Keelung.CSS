@@ -8,6 +8,27 @@ body {
     background-color: rgb(38, 38, 38);
 }
 
+.hh {
+    display: flex;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-size: 12vw;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: flex-end;
+}
+
+.bor {
+    font-size: 12vw;
+    color: rgb(125, 234, 232);
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
+}
+
 .two_color span {
     color: rgb(251, 141, 117);
     font-weight: 1500;
@@ -17,8 +38,19 @@ body {
     /* 垂直置中 */
     align-items: flex-end;
 }
+
 .two_color span span {
     font-size: 8vw;
+}
+
+.y2020 {
+    font-size: 6vw;
+    color: white;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    /* 垂直置中 */
+    align-items: center;
 }
 
 div p {
@@ -64,4 +96,12 @@ div p {
     justify-content: center;
     /* 垂直置中 */
     align-items: center;
+}
+.tittlePic{
+    float: left;
+}
+.tittlePic img {
+    margin-left: 5%;
+    left: 5%;
+    width: 30vw;
 }
