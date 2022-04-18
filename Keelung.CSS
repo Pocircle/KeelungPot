@@ -105,3 +105,26 @@ div p {
     left: 5%;
     width: 30vw;
 }
+img{
+    width: 95vw;
+}
+.FloatFacbook{
+    width: 75vw;
+    height: 55vw;
+    position: absolute;
+    right: 15%;
+    top: 350vw;
+}.FloatFacbook2{
+    width: 75vw;
+    height: 65vw;
+    position: absolute;
+    right: 15%;
+    top: 413vw;
+}
+.FloatFacbook3{
+    width: 75vw;
+    height: 55vw;
+    position: absolute;
+    right: 15%;
+    top: 486vw;
+}
