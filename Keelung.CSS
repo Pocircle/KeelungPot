@@ -1,180 +1,308 @@
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
 
-@media only screen and (min-width: 601px) and (max-width: 900px) {}
 
-@media screen and (min-width: 900px) {}
+    .Save {
+        width: 100vw;
+        position: relative;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BSave {
+        width: 100vw;
+        position: relative;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        user-select: none;
+        -moz-user-select: none;
+        align-items: center;
+    }
+
+    .Tittle {
+        position: relative;
+        font-size: large;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        /* 垂直置中 */
+        align-items: center;
+    }
+
+    img {
+        width: 100vw;
+    }
+
+    .FloatFacbook {
+        width: 81vw;
+        height: 69vw;
+        position: absolute;
+        right: 8vw;
+        top: 355vw;
+    }
+
+    .FloatFacbook2 {
+        width: 81vw;
+        height: 59vw;
+        position: absolute;
+        right: 8vw;
+        top: 432vw;
+    }
+
+    .FloatFacbook3 {
+        width: 81vw;
+        height: 66vw;
+        position: absolute;
+        right: 8vw;
+        top: 497vw;
+
+    }
+
+    .FloatFacbook4 {
+        width: 81vw;
+        height: 65vw;
+        position: absolute;
+        right: 8vw;
+        top: 573vw;
+
+    }
+
+    .FloatFacbook5 {
+        width: 81vw;
+        height: 67vw;
+        position: absolute;
+        right: 8vw;
+        top: 647vw;
+
+    }
+
+    .FloatFacbook6 {
+        width: 81vw;
+        height: 65vw;
+        position: absolute;
+        right: 8vw;
+        top: 723vw;
+
+    }
+
+    .Flo {
+        position: absolute;
+        top: 241vw;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+
+    .Save {
+        left: 25vw;
+        width: 50vw;
+        position: relative;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BSave {
+        left: 25vw;
+        width: 50vw;
+        position: relative;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        user-select: none;
+        -moz-user-select: none;
+        align-items: center;
+    }
+
+    .Tittle {
+        left: 25vw;
+        position: relative;
+        font-size: large;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        /* 垂直置中 */
+        align-items: center;
+    }
+
+    img {
+        left: 25vw;
+        width: 50vw;
+    }
+
+    .FloatFacbook {
+        left: 31vw;
+        width: 41vw;
+        height: 35vw;
+        position: absolute;
+        right: 8vw;
+        top: 177vw;
+    }
+
+    .FloatFacbook2 {
+        left: 31vw;
+        width: 41vw;
+        height: 29vw;
+        position: absolute;
+        right: 8vw;
+        top: 216vw;
+    }
+
+    .FloatFacbook3 {
+        left: 31vw;
+        width: 41vw;
+        height: 34vw;
+        position: absolute;
+        right: 8vw;
+        top: 248vw;
+
+    }
+
+    .FloatFacbook4 {
+        left: 31vw;
+        width: 41vw;
+        height: 33vw;
+        position: absolute;
+        right: 8vw;
+        top: 286vw;
+
+    }
+
+    .FloatFacbook5 {
+        left: 31vw;
+        width: 41vw;
+        height: 34vw;
+        position: absolute;
+        right: 8vw;
+        top: 323vw;
+
+    }
+
+    .FloatFacbook6 {
+        left: 31vw;
+        width: 41vw;
+        height: 33vw;
+        position: absolute;
+        right: 8vw;
+        top: 361vw;
+
+    }
+
+    .Flo {
+        left: 25vw;
+        position: absolute;
+        top: 124vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .Save {
+        left: 35vw;
+        width: 30vw;
+        position: relative;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BSave {
+        left: 35vw;
+        width: 30vw;
+        position: relative;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        user-select: none;
+        -moz-user-select: none;
+        align-items: center;
+    }
+
+    .Tittle {
+        left: 35vw;
+        position: relative;
+        font-size: large;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;
+        /* 垂直置中 */
+        align-items: center;
+    }
+
+    img {
+        left: 35vw;
+        width: 30vw;
+    }
+
+    .FloatFacbook {
+        left: 38vw;
+        width: 25vw;
+        height: 21vw;
+        position: absolute;
+        right: 8vw;
+        top: 106vw;
+    }
+
+    .FloatFacbook2 {
+        left: 38vw;
+        width: 25vw;
+        height: 18vw;
+        position: absolute;
+        right: 8vw;
+        top: 129vw;
+    }
+
+    .FloatFacbook3 {
+        left: 38vw;
+        width: 25vw;
+        height: 20vw;
+        position: absolute;
+        right: 8vw;
+        top: 149vw;
+
+    }
+
+    .FloatFacbook4 {
+        left: 38vw;
+        width: 25vw;
+        height: 20vw;
+        position: absolute;
+        right: 8vw;
+        top: 171vw;
+
+    }
+
+    .FloatFacbook5 {
+        left: 38vw;
+        width: 25vw;
+        height: 20vw;
+        position: absolute;
+        right: 8vw;
+        top: 194vw;
+
+    }
+
+    .FloatFacbook6 {
+        left: 38vw;
+        width: 25vw;
+        height: 20vw;
+        position: absolute;
+        right: 8vw;
+        top: 216vw;
+
+    }
+
+    .Flo {
+        left: 35vw;
+        position: absolute;
+        top: 75vw;
+    }
+}
 
 body {
     background-color: rgb(38, 38, 38);
-}
-
-.hh {
-    display: flex;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-    font-size: 12vw;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: flex-end;
-}
-
-.bor {
-    font-size: 12vw;
-    color: rgb(125, 234, 232);
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: center;
-}
-
-.two_color span {
-    color: rgb(251, 141, 117);
-    font-weight: 1500;
-    font-size: 5vw;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: flex-end;
-}
-
-.two_color span span {
-    font-size: 8vw;
-}
-
-.y2020 {
-    font-size: 6vw;
-    color: white;
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: center;
-}
-
-div p {
-    color: rgb(125, 234, 232);
-    position: relative;
-    font-size: large;
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: center;
-    font-weight: 800;
-    font-size: 4.5vw;
-}
-
-.big {
-    color: rgb(125, 234, 232);
-    position: relative;
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: center;
-    font-weight: 800;
-    font-size: 6vw;
-}
-
-.Save {
-    width: 100vw;
-    position: relative;
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    align-items: center;
-}
-
-.BSave {
-    width: 100vw;
-    position: relative;
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    user-select: none;
-    -moz-user-select: none;
-    align-items: center;
-}
-
-.Tittle {
-    position: relative;
-    font-size: large;
-    display: flex;
-    /* 水平置中 */
-    justify-content: center;
-    /* 垂直置中 */
-    align-items: center;
-}
-
-.tittlePic {
-    float: left;
-}
-
-.tittlePic img {
-    margin-left: 5%;
-    left: 5%;
-    width: 30vw;
-}
-
-img {
-    width: 100vw;
-}
-
-.FloatFacbook {
-    width: 81vw;
-    height: 69vw;
-    position: absolute;
-    right: 8vw;
-    top: 355vw;
-}
-
-.FloatFacbook2 {
-    width: 81vw;
-    height: 59vw;
-    position: absolute;
-    right: 8vw;
-    top: 432vw;
-}
-
-.FloatFacbook3 {
-    width: 81vw;
-    height: 66vw;
-    position: absolute;
-    right: 8vw;
-    top: 497vw;
-
-}
-
-.FloatFacbook4 {
-    width: 81vw;
-    height: 65vw;
-    position: absolute;
-    right: 8vw;
-    top: 573vw;
-
-}
-
-.FloatFacbook5 {
-    width: 81vw;
-    height: 67vw;
-    position: absolute;
-    right: 8vw;
-    top: 647vw;
-
-}
-
-.FloatFacbook6 {
-    width: 81vw;
-    height: 65vw;
-    position: absolute;
-    right: 8vw;
-    top: 723vw;
-
-}
-
-.Flo {
-    position: absolute;
-    top: 241vw;
 }
